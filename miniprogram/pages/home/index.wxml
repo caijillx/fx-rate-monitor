@@ -1,0 +1,52 @@
+<view class="page home-page">
+  <view class="hero">
+    <view>
+      <text class="eyebrow">CNY EXCHANGE WATCH</text>
+      <view class="hero-title">兑换时机，\n数据替你盯。</view>
+    </view>
+    <view class="member-pill {{member.active ? 'active' : ''}}" bindtap="goMembership">
+      {{member.active ? member.plan : '免费版'}}
+    </view>
+  </view>
+
+  <view class="rate-list">
+    <view class="rate-card panel" wx:for="{{pairs}}" wx:key="key" data-key="{{item.key}}" bindtap="selectPair">
+      <view class="card-head">
+        <view class="currency">
+          <view class="flag">{{item.flag}}</view>
+          <view><view class="pair-name">{{item.base}} / CNY</view><view class="pair-note">1 {{item.base}} 可兑换人民币</view></view>
+        </view>
+        <view class="status {{item.statusClass}}">{{item.statusText}}</view>
+      </view>
+      <view class="rate-line"><text class="rate-value">{{item.currentText}}</text><text class="rate-unit">CNY</text></view>
+      <view class="mini-stats">
+        <view><text>7 日最低</text><text class="strong">{{item.low7Text}}</text></view>
+        <view><text>30 日最低</text><text class="strong">{{item.low30Text}}</text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="chart-card panel">
+    <view class="section-head">
+      <view><text class="eyebrow">30-DAY PULSE</text><view class="section-title">{{active.base}} 价格轨迹</view></view>
+      <view class="switcher">
+        <view class="{{activeKey === 'GBP_CNY' ? 'selected' : ''}}" data-key="GBP_CNY" bindtap="selectPair">GBP</view>
+        <view class="{{activeKey === 'USD_CNY' ? 'selected' : ''}}" data-key="USD_CNY" bindtap="selectPair">USD</view>
+      </view>
+    </view>
+    <canvas type="2d" id="rateChart" class="rate-chart"></canvas>
+    <view class="chart-meta">
+      <text>最低 <text class="strong">{{active.low30Text}}</text></text>
+      <text>最新 <text class="strong">{{active.currentText}}</text></text>
+      <text>距低点 <text class="strong">{{active.distanceText}}</text></text>
+    </view>
+  </view>
+
+  <view class="scan-card panel">
+    <view><text class="eyebrow">NEXT SCAN</text><view class="countdown">{{countdown}}</view></view>
+    <view class="scan-copy"><text class="strong">每日 4 次</text><text>08:00 · 12:00 · 16:00 · 20:00</text></view>
+  </view>
+
+  <button class="primary-button" bindtap="goAlerts">设置我的汇率提醒</button>
+  <view class="source">{{source}} · 更新于 {{updatedAt}}</view>
+</view>

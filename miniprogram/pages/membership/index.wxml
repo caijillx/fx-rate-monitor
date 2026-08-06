@@ -1,0 +1,29 @@
+<view class="page member-page">
+  <view class="member-hero">
+    <text class="eyebrow">FX SENTINEL PRO</text>
+    <view>把好汇率，变成\n可执行的机会。</view>
+    <text>更高频监控 · 更多提醒 · 更长历史</text>
+  </view>
+
+  <view class="current panel" wx:if="{{member.active}}">
+    <view><text>当前会员</text><text class="strong">{{member.plan}}</text></view>
+    <text>有效期至 {{member.expiredAt}}</text>
+  </view>
+
+  <view class="plans">
+    <view class="plan panel {{selected === item.id ? 'selected' : ''}}" wx:for="{{plans}}" wx:key="id" data-id="{{item.id}}" bindtap="selectPlan">
+      <view><text class="strong">{{item.name}}</text><text>{{item.caption}}</text></view>
+      <view class="price"><text>¥</text><text class="strong">{{item.price}}</text></view>
+      <view class="recommend" wx:if="{{item.recommended}}">推荐</view>
+    </view>
+  </view>
+
+  <view class="benefits panel">
+    <view class="benefit" wx:for="{{benefits}}" wx:key="title">
+      <view class="check">✓</view><view><text class="strong">{{item.title}}</text><text>{{item.text}}</text></view>
+    </view>
+  </view>
+
+  <button class="primary-button" bindtap="mockPay">模拟微信支付 · ¥{{selectedPlan.price}}</button>
+  <view class="payment-note">MVP 演示环境不会产生真实扣款。正式版将接入微信支付 API v3。</view>
+</view>

@@ -26,7 +26,9 @@ jobs:
         with:
           python-version: "3.13"
       - name: Run tests
-        run: python -m unittest discover -s tests -v
+        run: |
+          python -m unittest discover -s tests -v
+          npm test
       - name: Fetch rates and evaluate alerts
         env:
           SEND_EMAIL: ${{ github.event_name != 'push' && secrets.SMTP_HOST != '' && secrets.SMTP_USER != '' && secrets.SMTP_PASSWORD != '' && secrets.MAIL_TO != '' }}

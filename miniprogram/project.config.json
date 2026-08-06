@@ -1,0 +1,15 @@
+{
+  "appid": "touristappid",
+  "projectname": "fx-rate-monitor-mvp",
+  "description": "汇率哨兵微信小程序 MVP",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": false
+  },
+  "condition": {}
+}

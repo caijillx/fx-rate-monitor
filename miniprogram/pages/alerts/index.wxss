@@ -1,0 +1,21 @@
+.page-heading { margin: 12rpx 0 38rpx; }
+.page-heading view { margin: 16rpx 0 10rpx; font-size: 58rpx; font-weight: 720; letter-spacing: -4rpx; }
+.page-heading > text:last-child { color: #91a197; font-size: 24rpx; }
+.builder { padding: 30rpx; }
+.builder-title { margin-bottom: 12rpx; font-size: 30rpx; font-weight: 700; }
+.field { padding: 24rpx 0; border-bottom: 1rpx solid rgba(190,219,202,.12); }
+.field > text { display: block; margin-bottom: 15rpx; color: #91a197; font-size: 22rpx; }
+.select-value, .field input { min-height: 52rpx; color: #edf5ef; font-size: 29rpx; }
+.select-value { display: flex; justify-content: space-between; }
+.select-value text { color: #b9f84f; font-size: 36rpx; }
+.builder .primary-button { margin-top: 28rpx; }
+.list-title { display: flex; justify-content: space-between; margin: 38rpx 4rpx 18rpx; color: #91a197; font-size: 21rpx; }
+.alert-list { display: grid; gap: 16rpx; }
+.alert-item { display: flex; align-items: center; padding: 24rpx; }
+.alert-icon { display: flex; width: 64rpx; height: 64rpx; align-items: center; justify-content: center; border-radius: 18rpx; color: #b9f84f; background: #1b3023; font-size: 30rpx; font-weight: 800; }
+.alert-copy { display: flex; flex: 1; flex-direction: column; gap: 7rpx; margin-left: 20rpx; }
+.alert-copy .strong { font-size: 26rpx; font-weight: 700; }
+.alert-copy text { color: #91a197; font-size: 21rpx; }
+.tip { display: flex; flex-direction: column; gap: 11rpx; margin-top: 22rpx; padding: 25rpx; }
+.tip .strong { color: #b9f84f; font-size: 23rpx; font-weight: 700; }
+.tip text { color: #91a197; font-size: 21rpx; line-height: 1.6; }

@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="profile-card panel">
+    <view class="avatar">¥</view>
+    <view><text class="strong">汇率观察者</text><text>{{member.active ? member.plan : '免费版用户'}}</text></view>
+    <view class="tag">{{member.active ? 'PRO' : 'FREE'}}</view>
+  </view>
+
+  <view class="summary panel">
+    <view><text class="strong">{{alertCount}}</text><text>提醒规则</text></view>
+    <view><text class="strong">2</text><text>监控币种</text></view>
+    <view><text class="strong">4×</text><text>每日巡检</text></view>
+  </view>
+
+  <view class="menu panel">
+    <view bindtap="goAlerts"><text>提醒设置</text><text>›</text></view>
+    <view bindtap="goMembership"><text>会员与订单</text><text>›</text></view>
+    <view bindtap="copyDashboard"><text>网页版趋势</text><text>复制链接</text></view>
+    <view><text>隐私政策</text><text>MVP 草案</text></view>
+    <view><text>用户协议</text><text>MVP 草案</text></view>
+  </view>
+
+  <view class="version">汇率哨兵 MVP · 0.1.0</view>
+</view>

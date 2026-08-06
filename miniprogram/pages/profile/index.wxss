@@ -1,0 +1,16 @@
+.profile-card { display: flex; align-items: center; margin: 12rpx 0 22rpx; padding: 30rpx; }
+.avatar { display: flex; width: 92rpx; height: 92rpx; align-items: center; justify-content: center; border-radius: 28rpx; color: #0a150e; background: #b9f84f; font-family: Georgia, serif; font-size: 48rpx; font-weight: 900; }
+.profile-card > view:nth-child(2) { display: flex; flex: 1; flex-direction: column; gap: 8rpx; margin-left: 22rpx; }
+.profile-card .strong { font-size: 31rpx; font-weight: 700; }
+.profile-card text { color: #91a197; font-size: 21rpx; }
+.tag { padding: 9rpx 13rpx; border-radius: 10rpx; color: #b9f84f; background: rgba(185,248,79,.1); font-size: 18rpx; font-weight: 800; }
+.summary { display: grid; grid-template-columns: repeat(3, 1fr); margin-bottom: 22rpx; padding: 28rpx 12rpx; }
+.summary view { display: flex; flex-direction: column; align-items: center; gap: 9rpx; border-right: 1rpx solid rgba(190,219,202,.12); }
+.summary view:last-child { border-right: 0; }
+.summary .strong { color: #b9f84f; font-size: 34rpx; font-weight: 700; }
+.summary text { color: #91a197; font-size: 19rpx; }
+.menu { padding: 0 28rpx; }
+.menu view { display: flex; justify-content: space-between; padding: 29rpx 0; border-bottom: 1rpx solid rgba(190,219,202,.12); font-size: 25rpx; }
+.menu view:last-child { border-bottom: 0; }
+.menu view text:last-child { color: #91a197; font-size: 21rpx; }
+.version { margin-top: 34rpx; color: #526159; text-align: center; font-size: 19rpx; }

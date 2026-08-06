@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/alerts/index",
+    "pages/membership/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "汇率哨兵",
+    "navigationBarBackgroundColor": "#07100c",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#07100c",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#819187",
+    "selectedColor": "#9adf2f",
+    "backgroundColor": "#0b1710",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "行情" },
+      { "pagePath": "pages/alerts/index", "text": "提醒" },
+      { "pagePath": "pages/membership/index", "text": "会员" },
+      { "pagePath": "pages/profile/index", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}
