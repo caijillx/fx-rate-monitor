@@ -1,0 +1,67 @@
+<view class="page banks-page">
+  <view class="page-heading">
+    <text class="eyebrow">BANK RATE COMPARE</text>
+    <view>8 家银行，<text>一眼比价。</text></view>
+    <text>人民币购汇 · 价格越低，可买到的外币越多</text>
+  </view>
+
+  <view class="demo-tip" wx:if="{{demo}}">
+    <text class="dot"></text><text>MVP 样本牌价 · 官方数据适配器接入后自动刷新</text>
+  </view>
+
+  <scroll-view class="currency-scroll" scroll-x="{{true}}" enhanced="{{true}}" show-scrollbar="{{false}}">
+    <view class="currency-list">
+      <view class="currency-chip {{currencyCode === item.code ? 'selected' : ''}}"
+        wx:for="{{currencies}}" wx:key="code" data-code="{{item.code}}" bindtap="selectCurrency">
+        <text>{{item.flag}}</text><text>{{item.name}}</text><text>{{item.code}}</text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class="controls panel">
+    <view class="amount-field">
+      <text>我准备兑换</text>
+      <view><text>¥</text><input type="digit" value="{{cnyAmount}}" bindinput="updateAmount" /></view>
+    </view>
+    <view class="quote-switch">
+      <view class="{{quoteType === 'spotSell' ? 'selected' : ''}}" data-type="spotSell" bindtap="selectQuoteType">现汇</view>
+      <view class="{{quoteType === 'cashSell' ? 'selected' : ''}}" data-type="cashSell" bindtap="selectQuoteType">现钞</view>
+    </view>
+  </view>
+
+  <view class="winner panel" wx:if="{{best}}">
+    <view class="winner-top"><text class="eyebrow">BEST PRICE</text><text>{{availableCount}} 家有牌价</text></view>
+    <view class="winner-bank"><text>{{best.name}}</text><text>最优</text></view>
+    <view class="winner-rate"><text>{{best.rateText}}</text><text>CNY / {{currency.unitLabel}}</text></view>
+    <view class="winner-foot">
+      <text>预计获得 {{best.foreignAmountText}} {{currencyCode}}</text>
+      <text>比末位多 {{savingText}} {{currencyCode}}</text>
+    </view>
+  </view>
+
+  <view class="section-bar">
+    <view><text class="eyebrow">RANKING</text><text>{{quoteType === 'spotSell' ? '现汇卖出价' : '现钞卖出价'}}</text></view>
+    <text>更新 {{quotedAt}}</text>
+  </view>
+
+  <view class="bank-list">
+    <view class="bank-row panel {{item.isBest ? 'best' : ''}}" wx:for="{{rows}}" wx:key="id" data-id="{{item.id}}" bindlongpress="copySource">
+      <view class="rank {{item.isBest ? 'top' : ''}}">{{item.rank}}</view>
+      <view class="bank-name">
+        <view><text>{{item.name}}</text><text wx:if="{{item.isBest}}">最优</text></view>
+        <text wx:if="{{item.available}}">{{item.quotedAt}} · 长按复制官方源</text>
+        <text wx:else>当前样本未收录该币种</text>
+      </view>
+      <view class="bank-price">
+        <text>{{item.rateText}}</text>
+        <text wx:if="{{item.available}}">可得 {{item.foreignAmountText}} {{currencyCode}}</text>
+        <text wx:else>暂未挂牌</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="rate-note panel">
+    <text>口径说明</text>
+    <text>人民币买外币比较银行卖出价；现汇适合汇款或外币账户，现钞适合提取纸币。日元、韩元按 100 单位显示，其余按 1 单位显示。最终成交价以银行确认页为准。</text>
+  </view>
+</view>
