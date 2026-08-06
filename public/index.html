@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08110d" />
+    <title>汇率哨兵 · CNY Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="汇率哨兵首页">
+          <span class="brand-mark">¥</span>
+          <span>汇率哨兵</span>
+        </a>
+        <div class="health"><span class="pulse"></span>自动巡检运行中</div>
+      </header>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow">CNY EXCHANGE WATCH</p>
+          <h1>更好的兑换时机，<br /><em>让数据替你盯住。</em></h1>
+        </div>
+        <div class="hero-meta">
+          <span>每日 4 次</span>
+          <strong id="updated-at">正在读取…</strong>
+          <small id="source-label">数据加载中</small>
+        </div>
+      </section>
+
+      <section id="rate-grid" class="rate-grid" aria-live="polite"></section>
+
+      <section class="panel chart-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">30-DAY PULSE</p>
+            <h2>30 日价格轨迹</h2>
+          </div>
+          <div id="pair-switch" class="segmented" role="group" aria-label="选择币种">
+            <button class="active" data-pair="GBP_CNY">GBP</button>
+            <button data-pair="USD_CNY">USD</button>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <svg id="rate-chart" viewBox="0 0 900 280" role="img" aria-label="30日汇率折线图"></svg>
+          <div id="chart-summary" class="chart-summary"></div>
+        </div>
+      </section>
+
+      <section class="bottom-grid">
+        <article class="panel schedule-card">
+          <p class="eyebrow">AUTOMATION</p>
+          <h2>下一轮巡检</h2>
+          <div id="next-run" class="countdown">--:--:--</div>
+          <p>北京时间 08:00 · 12:00 · 16:00 · 20:00</p>
+        </article>
+        <article class="panel rule-card">
+          <p class="eyebrow">ALERT RULE</p>
+          <h2>只在值得关注时打扰你</h2>
+          <ul>
+            <li><span>7D</span> 当前价达到此前 7 日最低</li>
+            <li><span>30D</span> 当前价达到此前 30 日最低</li>
+            <li><span>1×</span> 同一低点仅发送一次邮件</li>
+          </ul>
+        </article>
+      </section>
+
+      <footer>报价口径：1 GBP / 1 USD 可兑换的人民币参考价。仅作汇率观察，不含银行点差与手续费。</footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+
