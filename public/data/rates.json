@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T04:36:41.278074+00:00",
+  "generated_at": "2026-08-25T08:39:41.412074+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 9.1537,
+      "current": 9.157,
       "rate_date": "2026-08-25",
-      "min_7d": 9.1225,
+      "min_7d": 9.1223,
       "min_30d": 8.9998,
       "status": "normal",
       "history": [
@@ -102,46 +102,46 @@
         },
         {
           "date": "2026-08-18",
-          "rate": 9.1225
+          "rate": 9.1223
         },
         {
           "date": "2026-08-19",
-          "rate": 9.1304
+          "rate": 9.1302
         },
         {
           "date": "2026-08-20",
-          "rate": 9.1467
+          "rate": 9.1465
         },
         {
           "date": "2026-08-21",
-          "rate": 9.1617
+          "rate": 9.1612
         },
         {
           "date": "2026-08-22",
-          "rate": 9.1645
+          "rate": 9.1642
         },
         {
           "date": "2026-08-23",
-          "rate": 9.1655
+          "rate": 9.1652
         },
         {
           "date": "2026-08-24",
-          "rate": 9.1564
+          "rate": 9.1562
         },
         {
           "date": "2026-08-25",
-          "rate": 9.1537
+          "rate": 9.157
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.7162,
+      "current": 6.7194,
       "rate_date": "2026-08-25",
-      "min_7d": 6.7162,
-      "min_30d": 6.7162,
-      "status": "30d_low",
+      "min_7d": 6.7163,
+      "min_30d": 6.7163,
+      "status": "normal",
       "history": [
         {
           "date": "2026-07-27",
@@ -253,15 +253,15 @@
         },
         {
           "date": "2026-08-23",
-          "rate": 6.7196
+          "rate": 6.7195
         },
         {
           "date": "2026-08-24",
-          "rate": 6.7164
+          "rate": 6.7163
         },
         {
           "date": "2026-08-25",
-          "rate": 6.7162
+          "rate": 6.7194
         }
       ]
     }
