@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-09-07T17:15:40.766194+00:00",
+  "generated_at": "2026-09-08T03:07:06.919138+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 9.0732,
-      "rate_date": "2026-09-07",
-      "min_7d": 9.0671,
-      "min_30d": 9.0671,
+      "current": 9.072,
+      "rate_date": "2026-09-08",
+      "min_7d": 9.0669,
+      "min_30d": 9.0669,
       "status": "normal",
       "history": [
-        {
-          "date": "2026-08-09",
-          "rate": 9.076
-        },
         {
           "date": "2026-08-10",
           "rate": 9.0931
@@ -114,39 +110,39 @@
         },
         {
           "date": "2026-09-03",
-          "rate": 9.0671
+          "rate": 9.0669
         },
         {
           "date": "2026-09-04",
-          "rate": 9.0761
-        },
-        {
-          "date": "2026-09-05",
-          "rate": 9.0766
-        },
-        {
-          "date": "2026-09-06",
           "rate": 9.0762
         },
         {
+          "date": "2026-09-05",
+          "rate": 9.0768
+        },
+        {
+          "date": "2026-09-06",
+          "rate": 9.0763
+        },
+        {
           "date": "2026-09-07",
-          "rate": 9.0732
+          "rate": 9.0717
+        },
+        {
+          "date": "2026-09-08",
+          "rate": 9.072
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.708,
-      "rate_date": "2026-09-07",
-      "min_7d": 6.708,
-      "min_30d": 6.708,
+      "current": 6.7079,
+      "rate_date": "2026-09-08",
+      "min_7d": 6.7079,
+      "min_30d": 6.7079,
       "status": "30d_low",
       "history": [
-        {
-          "date": "2026-08-09",
-          "rate": 6.7442
-        },
         {
           "date": "2026-08-10",
           "rate": 6.7423
@@ -262,6 +258,10 @@
         {
           "date": "2026-09-07",
           "rate": 6.708
+        },
+        {
+          "date": "2026-09-08",
+          "rate": 6.7079
         }
       ]
     }
