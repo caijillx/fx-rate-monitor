@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T08:23:09.035165+00:00",
+  "generated_at": "2026-09-12T15:00:00.824396+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 9.0763,
+      "current": 9.0757,
       "rate_date": "2026-09-12",
-      "min_7d": 9.0763,
+      "min_7d": 9.0757,
       "min_30d": 9.07,
       "status": "7d_low",
       "history": [
@@ -130,7 +130,7 @@
         },
         {
           "date": "2026-09-12",
-          "rate": 9.0763
+          "rate": 9.0757
         }
       ]
     },
