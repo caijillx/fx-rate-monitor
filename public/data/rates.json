@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-13T08:54:28.002707+00:00",
+  "generated_at": "2026-09-13T15:37:47.266193+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 9.0697,
+      "current": 9.0696,
       "rate_date": "2026-09-13",
-      "min_7d": 9.0697,
-      "min_30d": 9.0697,
+      "min_7d": 9.0696,
+      "min_30d": 9.0696,
       "status": "30d_low",
       "history": [
         {
@@ -130,17 +130,17 @@
         },
         {
           "date": "2026-09-13",
-          "rate": 9.0697
+          "rate": 9.0696
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.7025,
+      "current": 6.7026,
       "rate_date": "2026-09-13",
-      "min_7d": 6.7025,
-      "min_30d": 6.7025,
+      "min_7d": 6.7026,
+      "min_30d": 6.7026,
       "status": "30d_low",
       "history": [
         {
@@ -261,7 +261,7 @@
         },
         {
           "date": "2026-09-13",
-          "rate": 6.7025
+          "rate": 6.7026
         }
       ]
     }
