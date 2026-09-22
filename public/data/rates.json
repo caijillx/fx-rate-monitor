@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-22T03:22:18.131638+00:00",
+  "generated_at": "2026-09-22T09:00:52.120220+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 8.9632,
+      "current": 8.9623,
       "rate_date": "2026-09-22",
-      "min_7d": 8.9632,
-      "min_30d": 8.9632,
+      "min_7d": 8.9623,
+      "min_30d": 8.9623,
       "status": "30d_low",
       "history": [
         {
@@ -102,45 +102,45 @@
         },
         {
           "date": "2026-09-15",
-          "rate": 9.0527
+          "rate": 9.0524
         },
         {
           "date": "2026-09-16",
-          "rate": 9.0451
+          "rate": 9.0449
         },
         {
           "date": "2026-09-17",
-          "rate": 8.9953
+          "rate": 8.9956
         },
         {
           "date": "2026-09-18",
-          "rate": 8.9699
+          "rate": 8.9704
         },
         {
           "date": "2026-09-19",
-          "rate": 8.9654
+          "rate": 8.9657
         },
         {
           "date": "2026-09-20",
-          "rate": 8.9648
+          "rate": 8.9646
         },
         {
           "date": "2026-09-21",
-          "rate": 8.9642
+          "rate": 8.9641
         },
         {
           "date": "2026-09-22",
-          "rate": 8.9632
+          "rate": 8.9623
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.6944,
+      "current": 6.694,
       "rate_date": "2026-09-22",
-      "min_7d": 6.6944,
-      "min_30d": 6.6944,
+      "min_7d": 6.694,
+      "min_30d": 6.694,
       "status": "30d_low",
       "history": [
         {
@@ -253,15 +253,15 @@
         },
         {
           "date": "2026-09-20",
-          "rate": 6.6984
+          "rate": 6.6983
         },
         {
           "date": "2026-09-21",
-          "rate": 6.6948
+          "rate": 6.6947
         },
         {
           "date": "2026-09-22",
-          "rate": 6.6944
+          "rate": 6.694
         }
       ]
     }
