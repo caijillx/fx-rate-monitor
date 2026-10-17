@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-10-16T16:06:09.767247+00:00",
+  "generated_at": "2026-10-17T03:02:22.554410+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 8.8777,
-      "rate_date": "2026-10-16",
+      "current": 8.8814,
+      "rate_date": "2026-10-17",
       "min_7d": 8.8559,
       "min_30d": 8.8559,
       "status": "normal",
       "history": [
-        {
-          "date": "2026-09-17",
-          "rate": 8.9905
-        },
         {
           "date": "2026-09-18",
           "rate": 8.9648
@@ -122,31 +118,31 @@
         },
         {
           "date": "2026-10-14",
-          "rate": 8.866
+          "rate": 8.8654
         },
         {
           "date": "2026-10-15",
-          "rate": 8.8631
+          "rate": 8.8625
         },
         {
           "date": "2026-10-16",
-          "rate": 8.8777
+          "rate": 8.8805
+        },
+        {
+          "date": "2026-10-17",
+          "rate": 8.8814
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.6845,
-      "rate_date": "2026-10-16",
-      "min_7d": 6.6845,
-      "min_30d": 6.6845,
+      "current": 6.6837,
+      "rate_date": "2026-10-17",
+      "min_7d": 6.6837,
+      "min_30d": 6.6837,
       "status": "30d_low",
       "history": [
-        {
-          "date": "2026-09-17",
-          "rate": 6.7031
-        },
         {
           "date": "2026-09-18",
           "rate": 6.6974
@@ -253,15 +249,19 @@
         },
         {
           "date": "2026-10-14",
-          "rate": 6.6878
+          "rate": 6.6874
         },
         {
           "date": "2026-10-15",
-          "rate": 6.6864
+          "rate": 6.686
         },
         {
           "date": "2026-10-16",
-          "rate": 6.6845
+          "rate": 6.6837
+        },
+        {
+          "date": "2026-10-17",
+          "rate": 6.6837
         }
       ]
     }
