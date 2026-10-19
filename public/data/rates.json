@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-10-18T15:23:46.530794+00:00",
+  "generated_at": "2026-10-19T03:18:50.198578+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 8.8868,
-      "rate_date": "2026-10-18",
-      "min_7d": 8.8562,
+      "current": 8.8917,
+      "rate_date": "2026-10-19",
+      "min_7d": 8.859,
       "min_30d": 8.8559,
       "status": "normal",
       "history": [
-        {
-          "date": "2026-09-19",
-          "rate": 8.96
-        },
         {
           "date": "2026-09-20",
           "rate": 8.9588
@@ -122,31 +118,31 @@
         },
         {
           "date": "2026-10-16",
-          "rate": 8.8809
+          "rate": 8.8828
         },
         {
           "date": "2026-10-17",
-          "rate": 8.8858
+          "rate": 8.8878
         },
         {
           "date": "2026-10-18",
-          "rate": 8.8868
+          "rate": 8.8888
+        },
+        {
+          "date": "2026-10-19",
+          "rate": 8.8917
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.6833,
-      "rate_date": "2026-10-18",
-      "min_7d": 6.6833,
-      "min_30d": 6.6833,
+      "current": 6.6826,
+      "rate_date": "2026-10-19",
+      "min_7d": 6.6826,
+      "min_30d": 6.6826,
       "status": "30d_low",
       "history": [
-        {
-          "date": "2026-09-19",
-          "rate": 6.6958
-        },
         {
           "date": "2026-09-20",
           "rate": 6.6951
@@ -253,15 +249,19 @@
         },
         {
           "date": "2026-10-16",
-          "rate": 6.6836
+          "rate": 6.6835
         },
         {
           "date": "2026-10-17",
-          "rate": 6.6839
+          "rate": 6.6838
         },
         {
           "date": "2026-10-18",
-          "rate": 6.6833
+          "rate": 6.6832
+        },
+        {
+          "date": "2026-10-19",
+          "rate": 6.6826
         }
       ]
     }
