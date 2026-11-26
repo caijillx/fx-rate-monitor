@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-26T06:54:34.013431+00:00",
+  "generated_at": "2026-11-26T18:07:30.658678+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 8.7274,
+      "current": 8.7306,
       "rate_date": "2026-11-26",
-      "min_7d": 8.7202,
-      "min_30d": 8.7202,
+      "min_7d": 8.7199,
+      "min_30d": 8.7199,
       "status": "normal",
       "history": [
         {
@@ -102,44 +102,44 @@
         },
         {
           "date": "2026-11-19",
-          "rate": 8.7711
+          "rate": 8.7707
         },
         {
           "date": "2026-11-20",
-          "rate": 8.7561
+          "rate": 8.7558
         },
         {
           "date": "2026-11-21",
-          "rate": 8.756
+          "rate": 8.7556
         },
         {
           "date": "2026-11-22",
-          "rate": 8.753
+          "rate": 8.7528
         },
         {
           "date": "2026-11-23",
-          "rate": 8.733
+          "rate": 8.7328
         },
         {
           "date": "2026-11-24",
-          "rate": 8.7202
+          "rate": 8.7199
         },
         {
           "date": "2026-11-25",
-          "rate": 8.7275
+          "rate": 8.7267
         },
         {
           "date": "2026-11-26",
-          "rate": 8.7274
+          "rate": 8.7306
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.6675,
+      "current": 6.6647,
       "rate_date": "2026-11-26",
-      "min_7d": 6.6632,
+      "min_7d": 6.663,
       "min_30d": 6.6465,
       "status": "normal",
       "history": [
@@ -249,19 +249,19 @@
         },
         {
           "date": "2026-11-23",
-          "rate": 6.6671
+          "rate": 6.667
         },
         {
           "date": "2026-11-24",
-          "rate": 6.6632
+          "rate": 6.663
         },
         {
           "date": "2026-11-25",
-          "rate": 6.6665
+          "rate": 6.6669
         },
         {
           "date": "2026-11-26",
-          "rate": 6.6675
+          "rate": 6.6647
         }
       ]
     }
