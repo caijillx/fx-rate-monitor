@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-11-26T18:07:30.658678+00:00",
+  "generated_at": "2026-11-27T06:46:59.237835+00:00",
   "source": "Frankfurter v2 · institutional reference rates",
   "demo": false,
   "pairs": {
     "GBP_CNY": {
       "base": "GBP",
       "quote": "CNY",
-      "current": 8.7306,
-      "rate_date": "2026-11-26",
-      "min_7d": 8.7199,
-      "min_30d": 8.7199,
+      "current": 8.7292,
+      "rate_date": "2026-11-27",
+      "min_7d": 8.7196,
+      "min_30d": 8.7196,
       "status": "normal",
       "history": [
-        {
-          "date": "2026-10-28",
-          "rate": 8.8673
-        },
         {
           "date": "2026-10-29",
           "rate": 8.8751
@@ -118,35 +114,35 @@
         },
         {
           "date": "2026-11-23",
-          "rate": 8.7328
+          "rate": 8.7322
         },
         {
           "date": "2026-11-24",
-          "rate": 8.7199
+          "rate": 8.7196
         },
         {
           "date": "2026-11-25",
-          "rate": 8.7267
+          "rate": 8.7265
         },
         {
           "date": "2026-11-26",
-          "rate": 8.7306
+          "rate": 8.7297
+        },
+        {
+          "date": "2026-11-27",
+          "rate": 8.7292
         }
       ]
     },
     "USD_CNY": {
       "base": "USD",
       "quote": "CNY",
-      "current": 6.6647,
-      "rate_date": "2026-11-26",
-      "min_7d": 6.663,
+      "current": 6.6624,
+      "rate_date": "2026-11-27",
+      "min_7d": 6.6624,
       "min_30d": 6.6465,
-      "status": "normal",
+      "status": "7d_low",
       "history": [
-        {
-          "date": "2026-10-28",
-          "rate": 6.6635
-        },
         {
           "date": "2026-10-29",
           "rate": 6.66
@@ -249,19 +245,23 @@
         },
         {
           "date": "2026-11-23",
-          "rate": 6.667
+          "rate": 6.6668
         },
         {
           "date": "2026-11-24",
-          "rate": 6.663
+          "rate": 6.6625
         },
         {
           "date": "2026-11-25",
-          "rate": 6.6669
+          "rate": 6.6664
         },
         {
           "date": "2026-11-26",
-          "rate": 6.6647
+          "rate": 6.664
+        },
+        {
+          "date": "2026-11-27",
+          "rate": 6.6624
         }
       ]
     }
